@@ -1,7 +1,7 @@
 // SPDX-License-Identifier: MIT
 pragma solidity ^0.8.0;
 
-contract goiToken {
+contract Urinaka {
     address private owner;
     string public name;
     string public symbol;
@@ -18,8 +18,8 @@ contract goiToken {
     
     constructor() {
         owner = msg.sender;
-        name = "goiToken";
-        symbol  = "GOI";
+        name = "Urinaka";
+        symbol  = "URI";
         decimals = 8;
         maxSupply = 1000000 * (10**8);
     }
